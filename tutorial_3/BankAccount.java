@@ -114,6 +114,8 @@ class main4
 
 
         Admin a1 = new Admin(-1,"",-1,"");
-        a1.modifyBalance(c1,200); //changing for other
+        a1.modifyBalance(c1,500); //changing for other
+
+        c1.viewBalance();
     }
 }
