@@ -42,7 +42,7 @@ class BankAccount
 
     public void deposit(long amount)
     {
-        this.balance = balance + amount;
+        this.balance = this.balance + amount;
 
         System.out.println("Deposited!");
         System.out.println("Current Balance:"+this.balance);
